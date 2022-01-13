@@ -22,5 +22,5 @@ main()
 			;
 		break;
 	}
-	printf("%cµî±Þ\n", lev);
+	printf("%cï¿½ï¿½ï¿½\n", lev);
 }

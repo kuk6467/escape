@@ -1,4 +1,4 @@
-public class Test {
+public class Test1 {
 	public static void main(String args[]) {
 		int a = 12, b = 5, sum = 2;
 		b *= a /= 4;

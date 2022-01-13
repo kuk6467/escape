@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "escape_396659f8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "escape_396659f8"
+        },
+        {
             "name": "(gdb) Windows 시작의 Bash",
             "type": "cppdbg",
             "request": "launch",
@@ -17,7 +31,9 @@
             "pipeTransport": {
                 "debuggerPath": "/usr/bin/gdb",
                 "pipeProgram": "${env:windir}\\system32\\bash.exe",
-                "pipeArgs": ["-c"],
+                "pipeArgs": [
+                    "-c"
+                ],
                 "pipeCwd": ""
             },
             "setupCommands": [
