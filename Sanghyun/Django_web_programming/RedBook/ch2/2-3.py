@@ -1,7 +1,7 @@
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 
-
+# url open() 함수 - Request 클래스로 요청 헤더 지정
 url = 'http://127.0.0.1:8000'
 
 data = {
