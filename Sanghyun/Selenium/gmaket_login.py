@@ -8,7 +8,7 @@ class ShoppingOnInternet():
     def get_brower(self):
         while True:
             if self.browser in "c":
-                self.driver = webdriver.Chrome('C:\pydata\chromedriver_win32\chromedriver.exe')
+                self.driver = webdriver.Chrome('chromedriver.exe')
                 break
             else:
                 self.brwser = input("다시 입력해주세요")
